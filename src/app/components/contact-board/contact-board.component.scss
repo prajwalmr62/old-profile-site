@@ -1,0 +1,16 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #eaeaea;
+
+    padding: 24px;
+    margin-bottom: 36px;
+
+    a img {
+        transition: all 0.25s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
